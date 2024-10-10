@@ -1,0 +1,185 @@
+@media(min-width: 320px) and (max-width: 575.99px){
+
+
+    .navbar {
+        margin-top: 0px;
+        background-color: #d7ecff;
+        padding: 10px 0;
+    }
+
+
+    .navbar .navbar-toggler {
+        border: 0;
+        padding: 0;
+        box-shadow: none;
+    }
+
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        font-size: 16px;
+        line-height: 20px;
+        color: rgb(0, 0, 0);
+    }
+
+    .navbar .navbar-nav {
+        column-gap: 30px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 10px;
+        padding-bottom: 10px;
+    }
+
+
+    .customBtn {
+        padding: 8px 0;
+        border-radius: 7px;
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+    }
+
+
+
+    .navbar-collapse {
+        background-color: #b0cfffbd;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    /* ============================================= */
+
+    .banner_slider #banner_part1 {
+        padding: 125px 0 79px 0;
+    }
+
+    .banner_slider #banner_part1 .container h1 {
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 114%;
+    }
+
+    .banner_slider #banner_part1 .container p {
+        font-size: 16px;
+        margin: 10px 0 20px;
+    }
+
+    #banner_part1 .customBtn {
+        background-color: transparent;
+        border: 1px solid white;
+    }
+
+
+    #banner_part1 .customBtn:hover {
+        background-color: rgba(255, 255, 255, 0.245);
+    }
+
+    .banner_slider ul {
+        bottom: 25px;
+    }
+
+    .banner_slider ul li button {
+        height: 20px;
+        width: 20px;
+    }
+/* ====================================================== */
+
+#success_part {
+	padding: 50px 12px 0;
+}
+
+#success_part .container {
+    text-align: center;
+	padding: 28px 24px;
+	border-radius: 10px;
+}
+
+#success_part .container .text1 h3 {
+	font-size: 17px;
+
+}
+
+#success_part .container .text1 p {
+	font-size: 23px;
+    line-height: 110%;
+    margin: 10px 0 10px;
+}
+
+#success_part .container .text2 {
+	margin-top: 10px;
+	flex-direction: column;
+	row-gap: 20px;
+}
+
+
+#success_part .container .text2 .child h4 {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+#success_part .container .text2 .child p {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 110%;
+	margin-top: 8px;
+}
+
+/* ===================================== */
+
+#service_part {
+	padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#service_part .container .title h1 {
+	font-size: 23px;
+}
+
+
+#service_part .container .title p {
+	font-size: 12px;	
+}
+
+#service_part .container .main {
+	padding: 30px 12px;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+
+
+#service_part .container .main img{
+    width: 50px;
+}
+
+#service_part .container .main:hover {
+    box-shadow: none;
+}
+
+#service_part .container .main h2 {
+    font-size: 18px;
+    margin: 12px 0 5px;
+}
+#service_part .container .main p {
+    font-size: 12px;
+    line-height: 18px;
+}
+/* ========================= */
+
+#work_part {
+    padding: 50px 0;
+}
+#work_part .container .title{
+    margin-bottom: 40px;
+}
+
+#work_part .container .title h1 {
+	font-size: 23px;
+}
+
+
+#work_part .container .title p {
+	font-size: 12px;	
+    line-height: 18px;
+    margin-top: 0;
+}
